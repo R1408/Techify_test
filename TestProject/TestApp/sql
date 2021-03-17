@@ -1,0 +1,5 @@
+
+INSERT INTO `user_role` VALUES (1, "Admin") on duplicate KEY UPDATE role="Admin";
+INSERT INTO `user_role` VALUES (2, "User") on duplicate KEY UPDATE role="User";
+insert into users VALUES(1, "Techify", "Solution", "admin@gmail.com", "QWRtaW5AMTIzIw==", "abcd", 1) on duplicate KEY UPDATE first_name="Techify", last_name="Solution", email="admin@gmail.com", password="QWRtaW5AMTIzIw=="
+
