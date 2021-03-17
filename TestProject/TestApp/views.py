@@ -16,14 +16,6 @@ from .models import Users
 logger = logging.getLogger(__name__)
 
 
-# def login(request):
-#     template = loader.get_template('login.html')
-#     name = {
-#         'user': 'rahul'
-#     }
-#     return HttpResponse(template.render(name))
-
-
 def signup(request):
     template = loader.get_template('signup.html')
     return HttpResponse(template.render())
