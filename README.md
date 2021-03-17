@@ -8,7 +8,7 @@ create a virtual environment with python 3.7
 
 Activate virtual environment 
 
-###Windows:
+### Windows:
 ```bazaar
 cd venv
 cd Scripts
